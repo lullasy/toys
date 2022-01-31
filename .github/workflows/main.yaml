@@ -23,8 +23,6 @@ jobs:
 
       - name: Build Next.js app
         run: npm run build
-        env:
-          URL_PREFIX: toys
 
       - name: Export Next.js app
         run: npm run export

@@ -1,7 +1,5 @@
-const urlPrefix = process.env.URL_PREFIX ? '/' + process.env.URL_PREFIX : ''
-
 module.exports = {
-  assetPrefix: urlPrefix,
-  basePath: urlPrefix,
+  assetPrefix: '/toys',
+  basePath: '/toys',
   trailingSlash: true,
 };
